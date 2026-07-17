@@ -56,8 +56,8 @@
       font-family: var(--font-body);
       font-weight: 800;
       font-size: 20px;
-      margin-bottom: 4px;
       color: #000;
+      margin-bottom: 4px;
     }
   }
 
@@ -98,32 +98,23 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-
+      background: #fff;
       border: 3px solid #000;
       border-radius: 50%;
-      background: #fff;
-
-      color: #000;
-      text-decoration: none;
-      font-size: 18px;
-
       box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.9);
+      color: #000;
+      font-size: 18px;
+      text-decoration: none;
 
       transition:
         transform 0.2s ease,
         box-shadow 0.2s ease,
-        color 0.2s ease,
-        background 0.2s ease;
+        color 0.2s ease;
 
       &:hover {
+        color: #d6357e;
         transform: translateY(-3px);
         box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.9);
-        color: #d6357e;
-        background: #fff8fb;
-      }
-
-      &:active {
-        transform: translateY(-1px);
       }
 
       &:focus-visible {
@@ -162,10 +153,6 @@
 
     &__grid {
       grid-template-columns: 1fr;
-    }
-
-    &__heading {
-      font-size: clamp(40px, 12vw, 64px);
     }
 
     &__card {
