@@ -3,20 +3,31 @@
     "section": "Founders",
     "members": [
       {
-        "name": "Name Here",
+        "name": "APlotTwist",
         "title": "Founder",
-        "info": "Short bio goes here — a couple sentences about this person's role on V-SMP.",
+        "info": "Founder of V-SMP and responsible for the overall direction and vision of the community.",
         "image": "vsmp-logo.png"
       }
     ]
   },
   {
-    "section": "Moderators",
+    "section": "Developers",
     "members": [
       {
-        "name": "Name Here",
-        "title": "Moderator",
-        "info": "Short bio goes here — a couple sentences about this person's role on V-SMP.",
+        "name": "Ikta",
+        "title": "Developer",
+        "info": "Develops and maintains V-SMP's website, infrastructure, and custom community projects.",
+        "image": "vsmp-logo.png"
+      }
+    ]
+  },
+  {
+    "section": "Admins",
+    "members": [
+      {
+        "name": "Punter",
+        "title": "Administrator",
+        "info": "Oversees server administration, community management, and helps ensure smooth day-to-day operations.",
         "image": "vsmp-logo.png"
       }
     ]
