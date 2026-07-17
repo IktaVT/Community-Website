@@ -1,13 +1,23 @@
 import BackLink from '../../components/BackLink/BackLink'
 import staffData from '../../data/staff.json'
 import { asset } from '../../lib/asset'
+
+import { FaTwitch } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
+
 import './Staff.scss'
+
+interface Social {
+  platform: string
+  url: string
+}
 
 interface StaffMember {
   name: string
   title: string
   info: string
   image: string
+  socials?: Social[]
 }
 
 interface StaffSection {
@@ -16,6 +26,20 @@ interface StaffSection {
 }
 
 const sections = staffData as StaffSection[]
+
+function getSocialIcon(platform: string) {
+  switch (platform.toLowerCase()) {
+    case 'twitter':
+    case 'x':
+      return <FaXTwitter />
+
+    case 'twitch':
+      return <FaTwitch />
+
+    default:
+      return null
+  }
+}
 
 function Staff() {
   return (
@@ -54,6 +78,24 @@ function Staff() {
                   <p className="staff__info">
                     {member.info}
                   </p>
+
+                  {member.socials && member.socials.length > 0 && (
+                    <div className="staff__socials">
+                      <span>Social:</span>
+
+                      {member.socials.map((social) => (
+                        <a
+                          key={social.platform}
+                          href={social.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={social.platform}
+                        >
+                          {getSocialIcon(social.platform)}
+                        </a>
+                      ))}
+                    </div>
+                  )}
                 </article>
               ))}
             </div>
