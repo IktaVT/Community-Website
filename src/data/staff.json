@@ -6,7 +6,11 @@
         "name": "APlotTwist",
         "title": "Founder",
         "info": "Founder of V-SMP and responsible for the overall direction and vision of the community.",
-        "image": "vsmp-logo.png"
+        "image": "placeholder.png",
+        "socials": {
+          "twitter": "https://x.com/APlotTwistvt",
+          "twitch": "https://twitch.tv/APlotTwist"
+        }
       }
     ]
   },
@@ -17,7 +21,11 @@
         "name": "Ikta",
         "title": "Developer",
         "info": "Develops and maintains V-SMP's website, infrastructure, and custom community projects.",
-        "image": "vsmp-logo.png"
+        "image": "placeholder.png",
+        "socials": {
+          "twitter": "https://x.com/IktaVT",
+          "twitch": "https://www.twitch.tv/iktavt"
+        }
       }
     ]
   },
@@ -27,8 +35,11 @@
       {
         "name": "Punter",
         "title": "Administrator",
-        "info": "Oversees server administration, community management, and helps ensure smooth day-to-day operations.",
-        "image": "vsmp-logo.png"
+        "info": "Oversees server administration and community management.",
+        "image": "placeholder.png",
+        "socials": {
+          "twitter": "https://x.com/Lalafell_Punter"
+        }
       }
     ]
   }
