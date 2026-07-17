@@ -8,8 +8,8 @@
         "info": "Founder of V-SMP and responsible for the overall direction and vision of the community.",
         "image": "placeholder.png",
         "socials": {
-          "twitter": "https://x.com/APlotTwistvt",
-          "twitch": "https://twitch.tv/APlotTwist"
+          "twitter": "https://x.com/example",
+          "twitch": "https://twitch.tv/example"
         }
       }
     ]
@@ -23,22 +23,21 @@
         "info": "Develops and maintains V-SMP's website, infrastructure, and custom community projects.",
         "image": "placeholder.png",
         "socials": {
-          "twitter": "https://x.com/IktaVT",
-          "twitch": "https://www.twitch.tv/iktavt"
+          "twitch": "https://twitch.tv/example"
         }
       }
     ]
   },
   {
-    "section": "Admins",
+    "section": "Administrators",
     "members": [
       {
         "name": "Punter",
         "title": "Administrator",
-        "info": "Oversees server administration and community management.",
+        "info": "Oversees server administration, community management, and helps ensure smooth day-to-day operations.",
         "image": "placeholder.png",
         "socials": {
-          "twitter": "https://x.com/Lalafell_Punter"
+          "twitter": "https://x.com/example"
         }
       }
     ]
